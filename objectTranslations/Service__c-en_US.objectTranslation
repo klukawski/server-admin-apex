@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Services</value>
+    </caseValues>
+    <fields>
+        <label><!-- Alive --></label>
+        <name>Alive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Container --></label>
+        <name>Container__c</name>
+        <relationshipLabel><!-- Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Downtime --></label>
+        <name>Last_Downtime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Microservice Endpoint --></label>
+        <name>Microservice_Endpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Uptime --></label>
+        <name>Uptime__c</name>
+    </fields>
+    <layouts>
+        <layout>Service Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

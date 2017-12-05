@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_tests_from_service_owners_to_container_owners</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share tests from service owners to container owners</label>
+        <sharedTo>
+            <role>Container_Owner</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Service_Owner</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
